@@ -1,0 +1,6 @@
+*.zip
+bower_components/
+node_modules/
+npm-debug.log
+todo.md
+vendor/

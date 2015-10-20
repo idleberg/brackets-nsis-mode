@@ -1,0 +1,28 @@
+{
+  "name": "idleberg.nsis-mode",
+  "title": "NSIS",
+  "description": "Enables the CodeMirror mode for NSIS (Nullsoft Scriptable Install System)",
+  "homepage": "https://github.com/idleberg/brackets-nsis-mode",
+  "repository": "https://github.com/idleberg/brackets-nsis-mode",
+  "version": "1.0.0",
+  "author": "Jan T. Sott",
+  "license": "MIT",
+  "engines": {
+    "brackets": ">=1.0.0"
+  },
+  "keywords": [
+    "grammar",
+    "mode",
+    "nsis",
+    "nullsoft",
+    "syntax"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.0",
+    "gulp-jshint": "^1.11.2"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
