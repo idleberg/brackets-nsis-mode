@@ -1,18 +1,18 @@
-# Hopscotch for Brackets
+# NSIS for Brackets
 
-[![Creative Commons](https://img.shields.io/badge/license-CC0%201.0-orange.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/github/release/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://github.com/idleberg/brackets-nsis-mode/releases)
 [![David](https://img.shields.io/david/dev/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://david-dm.org/idleberg/brackets-nsis-mode#info=devDependencies)
 [![Travis CI](https://img.shields.io/travis/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://travis-ci.org/idleberg/brackets-nsis-mode)
 
-NSIS support for [Brackets](http://brackets.io), using the existing [mode](https://github.com/idleberg/codemirror-nsis) that's part of CodeMirror 5.8.0 (and later)
+Add NSIS support to [Brackets](http://brackets.io) by using the existing [mode](https://github.com/idleberg/codemirror-nsis) that's part of CodeMirror 5.8.0 (and later).
 
 ## Installation
 
 ### Brackets Extension Manager
 
 1. Open the Extension Manager `File > Extension Manager`
-2. Search for “*Hopscotch*”
+2. Search for “*NSIS*”
 3. Click on the install button
 
 ### GitHub
