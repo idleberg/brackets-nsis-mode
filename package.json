@@ -4,7 +4,7 @@
   "description": "Add syntax for NSIS (Nullsoft Scriptable Install System)",
   "homepage": "https://github.com/idleberg/brackets-nsis-mode",
   "repository": "https://github.com/idleberg/brackets-nsis-mode",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": "Jan T. Sott",
   "license": "MIT",
   "engines": {
@@ -19,8 +19,8 @@
   ],
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-debug": "^2.1.0",
-    "gulp-jshint": "^1.11.2"
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.0"
   },
   "scripts": {
     "test": "gulp lint"
