@@ -2,7 +2,7 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/github/release/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://github.com/idleberg/brackets-nsis-mode/releases)
-[![David](https://img.shields.io/david/dev/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://david-dm.org/idleberg/brackets-nsis-mode#info=devDependencies)
+[![David](https://img.shields.io/david/dev/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://david-dm.org/idleberg/brackets-nsis-mode?type=dev)
 [![Travis CI](https://img.shields.io/travis/idleberg/brackets-nsis-mode.svg?style=flat-square)](https://travis-ci.org/idleberg/brackets-nsis-mode)
 
 Add NSIS support to [Brackets](http://brackets.io) through the existing [mode](https://github.com/idleberg/codemirror-nsis) that's part of CodeMirror 5.8.0 (and later).
