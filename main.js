@@ -64,7 +64,7 @@ define(function (require, exports, module) {
         {regex: /[-+\/*=<>!]+/, token: "operator"},
 
         // Variable
-        {regex: /\$[\w]+/, token: "variable"},
+        {regex: /\$\w+/, token: "variable"},
 
         // Constant
         {regex: /\${[\w\.:-]+}/, token: "variable-2"},
