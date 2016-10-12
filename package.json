@@ -4,7 +4,7 @@
   "description": "Add syntax for NSIS (Nullsoft Scriptable Install System)",
   "homepage": "https://github.com/idleberg/brackets-nsis-mode",
   "repository": "https://github.com/idleberg/brackets-nsis-mode",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "author": "Jan T. Sott",
   "license": "MIT",
   "engines": {
