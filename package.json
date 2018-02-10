@@ -1,7 +1,7 @@
 {
   "name": "idleberg.nsis-mode",
   "title": "NSIS",
-  "description": "Add syntax for NSIS (Nullsoft Scriptable Install System)",
+  "description": "Brackets syntax highlighter for NSIS (Nullsoft Scriptable Install System)",
   "homepage": "https://github.com/idleberg/brackets-nsis-mode",
   "repository": "https://github.com/idleberg/brackets-nsis-mode",
   "version": "0.8.0",
