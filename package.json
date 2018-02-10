@@ -24,6 +24,7 @@
     "jshint": "^2.9.5"
   },
   "scripts": {
-    "test": "gulp lint"
+    "test": "gulp lint",
+    "zip": "rm idleberg.nsis.nsis-mode.zip  && git archive --format zip -o idleberg.nsis-mode.zip master"
   }
 }
