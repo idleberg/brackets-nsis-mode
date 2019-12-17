@@ -1,0 +1,20 @@
+{
+  "globals": {
+    "brackets": true,
+    "define": true,
+    "require": true,
+    "exports": true,
+    "module": true
+  },
+  "rules": {
+    "no-undef": 2,
+    "no-redeclare": 0,
+    "no-unused-vars": [
+      1,
+      {
+        "args": "none",
+        "vars": "all"
+      }
+    ]
+  }
+}
