@@ -13,7 +13,7 @@
     "dev": "npm run start",
     "fix": "eslint --fix ./src",
     "lint": "eslint ./src",
-    "package": "rm idleberg.nsis-mode.zip && git archive --format zip -o idleberg.nsis-mode.zip master",
+    "package": "rimraf idleberg.nsis-mode.zip && git archive --format zip -o idleberg.nsis-mode.zip master",
     "start": "rollup --watch --config",
     "test": "npm run lint"
   },
@@ -34,6 +34,7 @@
     "eslint-config-recommended": "^4.1.0",
     "husky": "^4.2.5",
     "retrie": "^0.1.1",
+    "rimraf": "^3.0.2",
     "rollup": "^2.24.0",
     "rollup-plugin-entry-code-injector": "^1.0.0"
   },
