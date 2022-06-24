@@ -1,0 +1,19 @@
+/*! brackets-nsis-mode | MIT License | https://github.com/idleberg/brackets-nsis-mode */
+
+(function () {
+    "use strict";
+
+    define(function () {
+        var CodeMirror = brackets.getModule("thirdparty/CodeMirror/lib/codemirror");
+        var LanguageManager = brackets.getModule("language/LanguageManager");
+
+        CodeMirror.defineSimpleMode("<%= name %>", <%- JSON.stringify(states) %>);
+        CodeMirror.defineMIME("<%= mime.type %>", "<%= mime.spec %>");
+
+        LanguageManager.defineLanguage("nsis", {
+            name: "NSIS",
+            mode: "nsis",
+            fileExtensions: ["nsh", "nsi", "bnsi", "bnsh", "nsdinc"]
+        });
+    });
+})();
