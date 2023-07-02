@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "build": "node tools/build.mjs",
-    "package": "rimraf idleberg.nsis-mode.zip && git archive --format zip -o idleberg.nsis-mode.zip master"
+    "package": "rimraf extension.zip && git archive --format zip -o idleberg.nsis-mode.zip master"
   },
   "engines": {
     "brackets": ">=1.0.0"
